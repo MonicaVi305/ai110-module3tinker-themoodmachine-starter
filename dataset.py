@@ -23,6 +23,9 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "hopeful",
+    "lucky",
+    "welcome",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +39,9 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "sleepy",
+    "frustrated",
+    "unwelcome"
 ]
 
 # ---------------------------------------------------------------------
@@ -44,13 +50,18 @@ NEGATIVE_WORDS = [
 
 # Short example posts written as if they were social media updates or messages.
 SAMPLE_POSTS = [
-    "I love this class so much",
-    "Today was a terrible day",
-    "Feeling tired but kind of hopeful",
-    "This is fine",
-    "So excited for the weekend",
-    "I am not happy about this",
+    "I love this class so much",#positive
+    "Today was a terrible day",#negative
+    "Feeling tired but kind of hopeful",#mixed
+    "This is fine",#neutral
+    "So excited for the weekend",#positive
+    "I am not happy about this",#negative
+    "I fell terrible about what happened",#negative
+    "The movie was awesome, I laughed so hard",#positive
+    "I don't know how to feel about this situation",#mixed
+
 ]
+
 
 # Human labels for each post above.
 # Allowed labels in the starter:
